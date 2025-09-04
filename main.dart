@@ -1,3 +1,10 @@
+import 'dart:io';
 void main(){
-print("Olá Mundo");
-}
+    int idade = 18;
+    if(idade >= 18)
+    {
+        print('Pode entrar na balada');
+    }
+    print('Fim do programa');
+  }  
+
