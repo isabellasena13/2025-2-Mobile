@@ -1,16 +1,13 @@
 import 'dart:io';
 void main(){
 
-    print("Digite o nome do usuário: ");
-    String usuario = stdin.readLineSync()!;
+    stdout.write("Digite sua idade: ");
+    int idade =
+int.parse(stdin.readLineSync()!);
 
-    print("Digite a senha: ");
-    String senha = stdin.readLineSync()!;
-
-    if(usuario == "admit" && senha == "1234"){
-        print("Acesso concedido.");
+    if(idade == 16){
+        print("Você pode votar.");
     } else {
-        print("Acesso negado.");
+        print("Você não pode votar.");
     }
 }
-

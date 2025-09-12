@@ -6,8 +6,8 @@ void main(){
 int.parse(stdin.readLineSync()!);
 
     if(idade == 16){
-        print("Você pode votar este ano!");
+        print("Você pode votar.");
     } else {
-        print("Você NÃO pode votar este ano.");
+        print("Você não pode votar.");
     }
 }
